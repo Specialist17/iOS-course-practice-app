@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90321A9B1BE713E000246016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90321A9A1BE713E000246016 /* AppDelegate.swift */; };
+		90321A9D1BE713E000246016 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90321A9C1BE713E000246016 /* ViewController.swift */; };
+		90321AA01BE713E000246016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90321A9E1BE713E000246016 /* Main.storyboard */; };
+		90321AA21BE713E000246016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90321AA11BE713E000246016 /* Assets.xcassets */; };
+		90321AA51BE713E000246016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90321AA31BE713E000246016 /* LaunchScreen.storyboard */; };
+		90321AB01BE713E000246016 /* Hide_The_BombTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90321AAF1BE713E000246016 /* Hide_The_BombTests.swift */; };
+		90321ABB1BE713E000246016 /* Hide_The_BombUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90321ABA1BE713E000246016 /* Hide_The_BombUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90321AAC1BE713E000246016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90321A8F1BE713E000246016 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90321A961BE713E000246016;
+			remoteInfo = "Hide The Bomb";
+		};
+		90321AB71BE713E000246016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90321A8F1BE713E000246016 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90321A961BE713E000246016;
+			remoteInfo = "Hide The Bomb";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90321A971BE713E000246016 /* Hide The Bomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hide The Bomb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90321A9A1BE713E000246016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90321A9C1BE713E000246016 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90321A9F1BE713E000246016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90321AA11BE713E000246016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90321AA41BE713E000246016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90321AA61BE713E000246016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90321AAB1BE713E000246016 /* Hide The BombTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hide The BombTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90321AAF1BE713E000246016 /* Hide_The_BombTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hide_The_BombTests.swift; sourceTree = "<group>"; };
+		90321AB11BE713E000246016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90321AB61BE713E000246016 /* Hide The BombUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hide The BombUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90321ABA1BE713E000246016 /* Hide_The_BombUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hide_The_BombUITests.swift; sourceTree = "<group>"; };
+		90321ABC1BE713E000246016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90321A941BE713E000246016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90321AA81BE713E000246016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90321AB31BE713E000246016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90321A8E1BE713E000246016 = {
+			isa = PBXGroup;
+			children = (
+				90321A991BE713E000246016 /* Hide The Bomb */,
+				90321AAE1BE713E000246016 /* Hide The BombTests */,
+				90321AB91BE713E000246016 /* Hide The BombUITests */,
+				90321A981BE713E000246016 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90321A981BE713E000246016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90321A971BE713E000246016 /* Hide The Bomb.app */,
+				90321AAB1BE713E000246016 /* Hide The BombTests.xctest */,
+				90321AB61BE713E000246016 /* Hide The BombUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90321A991BE713E000246016 /* Hide The Bomb */ = {
+			isa = PBXGroup;
+			children = (
+				90321A9A1BE713E000246016 /* AppDelegate.swift */,
+				90321A9C1BE713E000246016 /* ViewController.swift */,
+				90321A9E1BE713E000246016 /* Main.storyboard */,
+				90321AA11BE713E000246016 /* Assets.xcassets */,
+				90321AA31BE713E000246016 /* LaunchScreen.storyboard */,
+				90321AA61BE713E000246016 /* Info.plist */,
+			);
+			path = "Hide The Bomb";
+			sourceTree = "<group>";
+		};
+		90321AAE1BE713E000246016 /* Hide The BombTests */ = {
+			isa = PBXGroup;
+			children = (
+				90321AAF1BE713E000246016 /* Hide_The_BombTests.swift */,
+				90321AB11BE713E000246016 /* Info.plist */,
+			);
+			path = "Hide The BombTests";
+			sourceTree = "<group>";
+		};
+		90321AB91BE713E000246016 /* Hide The BombUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90321ABA1BE713E000246016 /* Hide_The_BombUITests.swift */,
+				90321ABC1BE713E000246016 /* Info.plist */,
+			);
+			path = "Hide The BombUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90321A961BE713E000246016 /* Hide The Bomb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90321ABF1BE713E000246016 /* Build configuration list for PBXNativeTarget "Hide The Bomb" */;
+			buildPhases = (
+				90321A931BE713E000246016 /* Sources */,
+				90321A941BE713E000246016 /* Frameworks */,
+				90321A951BE713E000246016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hide The Bomb";
+			productName = "Hide The Bomb";
+			productReference = 90321A971BE713E000246016 /* Hide The Bomb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90321AAA1BE713E000246016 /* Hide The BombTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90321AC21BE713E000246016 /* Build configuration list for PBXNativeTarget "Hide The BombTests" */;
+			buildPhases = (
+				90321AA71BE713E000246016 /* Sources */,
+				90321AA81BE713E000246016 /* Frameworks */,
+				90321AA91BE713E000246016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90321AAD1BE713E000246016 /* PBXTargetDependency */,
+			);
+			name = "Hide The BombTests";
+			productName = "Hide The BombTests";
+			productReference = 90321AAB1BE713E000246016 /* Hide The BombTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90321AB51BE713E000246016 /* Hide The BombUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90321AC51BE713E000246016 /* Build configuration list for PBXNativeTarget "Hide The BombUITests" */;
+			buildPhases = (
+				90321AB21BE713E000246016 /* Sources */,
+				90321AB31BE713E000246016 /* Frameworks */,
+				90321AB41BE713E000246016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90321AB81BE713E000246016 /* PBXTargetDependency */,
+			);
+			name = "Hide The BombUITests";
+			productName = "Hide The BombUITests";
+			productReference = 90321AB61BE713E000246016 /* Hide The BombUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90321A8F1BE713E000246016 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Fernando;
+				TargetAttributes = {
+					90321A961BE713E000246016 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = EP435FJL2Z;
+					};
+					90321AAA1BE713E000246016 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = EP435FJL2Z;
+						TestTargetID = 90321A961BE713E000246016;
+					};
+					90321AB51BE713E000246016 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = EP435FJL2Z;
+						TestTargetID = 90321A961BE713E000246016;
+					};
+				};
+			};
+			buildConfigurationList = 90321A921BE713E000246016 /* Build configuration list for PBXProject "Hide The Bomb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90321A8E1BE713E000246016;
+			productRefGroup = 90321A981BE713E000246016 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90321A961BE713E000246016 /* Hide The Bomb */,
+				90321AAA1BE713E000246016 /* Hide The BombTests */,
+				90321AB51BE713E000246016 /* Hide The BombUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90321A951BE713E000246016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90321AA51BE713E000246016 /* LaunchScreen.storyboard in Resources */,
+				90321AA21BE713E000246016 /* Assets.xcassets in Resources */,
+				90321AA01BE713E000246016 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90321AA91BE713E000246016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90321AB41BE713E000246016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90321A931BE713E000246016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90321A9D1BE713E000246016 /* ViewController.swift in Sources */,
+				90321A9B1BE713E000246016 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90321AA71BE713E000246016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90321AB01BE713E000246016 /* Hide_The_BombTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90321AB21BE713E000246016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90321ABB1BE713E000246016 /* Hide_The_BombUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90321AAD1BE713E000246016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90321A961BE713E000246016 /* Hide The Bomb */;
+			targetProxy = 90321AAC1BE713E000246016 /* PBXContainerItemProxy */;
+		};
+		90321AB81BE713E000246016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90321A961BE713E000246016 /* Hide The Bomb */;
+			targetProxy = 90321AB71BE713E000246016 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90321A9E1BE713E000246016 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90321A9F1BE713E000246016 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90321AA31BE713E000246016 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90321AA41BE713E000246016 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90321ABD1BE713E000246016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90321ABE1BE713E000246016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90321AC01BE713E000246016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hide The Bomb/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Hide-The-Bomb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90321AC11BE713E000246016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hide The Bomb/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Hide-The-Bomb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		90321AC31BE713E000246016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hide The BombTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Hide-The-BombTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hide The Bomb.app/Hide The Bomb";
+			};
+			name = Debug;
+		};
+		90321AC41BE713E000246016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hide The BombTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Hide-The-BombTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hide The Bomb.app/Hide The Bomb";
+			};
+			name = Release;
+		};
+		90321AC61BE713E000246016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hide The BombUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Hide-The-BombUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hide The Bomb";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		90321AC71BE713E000246016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hide The BombUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Hide-The-BombUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hide The Bomb";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90321A921BE713E000246016 /* Build configuration list for PBXProject "Hide The Bomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90321ABD1BE713E000246016 /* Debug */,
+				90321ABE1BE713E000246016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90321ABF1BE713E000246016 /* Build configuration list for PBXNativeTarget "Hide The Bomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90321AC01BE713E000246016 /* Debug */,
+				90321AC11BE713E000246016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90321AC21BE713E000246016 /* Build configuration list for PBXNativeTarget "Hide The BombTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90321AC31BE713E000246016 /* Debug */,
+				90321AC41BE713E000246016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90321AC51BE713E000246016 /* Build configuration list for PBXNativeTarget "Hide The BombUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90321AC61BE713E000246016 /* Debug */,
+				90321AC71BE713E000246016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90321A8F1BE713E000246016 /* Project object */;
+}
